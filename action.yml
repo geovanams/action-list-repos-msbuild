@@ -1,5 +1,5 @@
 #action.yml
-name: 'List Repos Action1'
+name: 'List Repos Action MS Build'
 description: 'Lista repositórios de um usuário'
 branding:
   icon: 'list'
