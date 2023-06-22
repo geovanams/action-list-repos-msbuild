@@ -1,0 +1,13 @@
+on:
+  push:
+    branches: [ main ]
+    
+jobs:
+  List-Repos:
+    runs-on: ubuntu-latest
+    name: Job para listar repositórios de um usuário
+    steps:
+    - name: List Repos
+      uses: geovanams/action-list-repos-msbuild@v1
+      with:
+        user: geovanams
