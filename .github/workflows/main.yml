@@ -8,6 +8,6 @@ jobs:
     name: Job para listar repositórios de um usuário
     steps:
     - name: List Repos
-      uses: geovanams/action-list-repos-msbuild@v1
+      uses: geovanams/action-list-repos-msbuild@main
       with:
         user: geovanams
