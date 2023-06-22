@@ -1,0 +1,17 @@
+#action.yml
+name: 'List Repos Action1'
+description: 'Lista repositórios de um usuário'
+branding:
+  icon: 'list'
+  color: 'blue'
+inputs:
+  user: # id do input
+    description: 'Usuário github'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.user }}
+    
+#image: 'docker://geovana10/list-repos-msbuild:v1'
