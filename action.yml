@@ -10,7 +10,7 @@ inputs:
     required: true
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://geovana10/list-repos-msbuild:v1'
   args:
     - ${{ inputs.user }}
     
